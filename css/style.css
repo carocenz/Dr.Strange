@@ -1,0 +1,161 @@
+body{
+    background-color: #000000;
+    color:rgb(122, 35, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.sidebar{
+    align-self: center;
+}
+
+ul{
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+}
+.nav-page{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    padding:10px 30px;
+    border: 1px solid #ff2d2d;
+    gap:20px;
+}
+
+.block-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:10px 30px;
+    border: 1px solid #ff2d2d;
+}
+
+h3{
+    color: #fff;
+}
+#main-header{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding-left:50px;
+}
+
+#navbar{
+    background-color: rgb(35, 0, 65);
+    color: #fff;
+}
+
+#list-1 li {
+    display:inline;
+}
+
+#showcase{
+    background-image:url('../images/db.jpg');
+    background-position:center;
+    min-height:500px;
+    margin-bottom: 30px;
+    height: 976;
+    width: 549;
+    text-align:center;
+    padding:0px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    background: rgb(35, 0, 65);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background:rgb(31, 31, 31);
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* PAGE INCOMICS */
+
+.line{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-items: center;
+}
+.wrapper-line{
+    padding:15px 0;
+    display:grid;
+    grid-row-gap:40px;
+}
+.skill-level{
+    width: 140px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.skill-level > span{
+    width: 16px;
+    height: 8px;
+    border: 1px solid blue;
+
+}
+
+#durability > span:nth-child(-n+3){
+    background-color: aqua;
+}
+
+#energy > span:nth-child(-n+6){
+    background-color: aqua;
+}
+
+#fightingskills > span:nth-child(-n+3){
+    background-color: aqua;
+}
+
+#intelligence > span:nth-child(-n+4){
+    background-color: aqua;
+}
+
+#speed > span:nth-child(-n+7){
+    background-color: aqua;
+}
+
+#strength > span:nth-child(-n+2){
+    background-color: aqua;
+}
+
+.box{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.box > h3{
+    text-align: center;
+    font-size:14px;
+}
+
+/* PAGE INCOMICS */
